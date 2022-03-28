@@ -26,7 +26,7 @@ class MahasiswaController extends Controller
     {
         //melakukan validasi data
         $request->validate([ 'Nim' => 'required', 'Nama' => 'required', 'Kelas' => 'required',
-        'Jurusan' => 'required', 'No_Handphone' => 'required',
+        'Jurusan' => 'required', 'No_Handphone' => 'required', 'Email' => 'required','TTL' => 'required'
         ]);
 
         //fungsi eloquent untuk menambah data
